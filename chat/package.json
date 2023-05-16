@@ -2,7 +2,7 @@
   "name": "chat",
   "version": "0.1.0",
   "private": true,
-  "url": "https://annastaasia.github.io/Chat/",
+  "homepage": "https://annastaasia.github.io/Chat/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
