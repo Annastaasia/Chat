@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Chat.css";
+import "./Chat.scss";
 
 const Chat = () => {
   const [commentText, setCommentText] = useState("");
@@ -19,23 +19,29 @@ const Chat = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
-        <input
-          name="input"
-          type="text"
-          placeholder="Enter your comment"
-          value={commentText}
-          onChange={(e) => setCommentText(e.target.value)}
-        />
-        <button type="submit">Submit</button>
-      </form>
-      <ul>
-        {comments.map((comment, index) => (
-          <li key={index} className={index === 0 ? "commentNew" : "comment"}>
-            {comment.text}
-          </li>
-        ))}
-      </ul>
+      <main className="wrapper">
+        <h1 className="title">Comments</h1>
+        <form onSubmit={handleSubmit} className="form">
+          <input
+            name="input"
+            type="text"
+            className="inputfield"
+            placeholder="Enter your comment"
+            value={commentText}
+            onChange={(e) => setCommentText(e.target.value)}
+          />
+          <button type="submit" className="btn">
+            Submit
+          </button>
+        </form>
+        <ul>
+          {comments.map((comment, index) => (
+            <li key={index} className={index === 0 ? "commentNew" : "comment"}>
+              {comment.text}
+            </li>
+          ))}
+        </ul>
+      </main>
     </>
   );
 };
