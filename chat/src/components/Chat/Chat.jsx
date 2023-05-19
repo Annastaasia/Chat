@@ -34,13 +34,18 @@ const Chat = () => {
             Submit
           </button>
         </form>
-        <ul>
-          {comments.map((comment, index) => (
-            <li key={index} className={index === 0 ? "commentNew" : "comment"}>
-              {comment.text}
-            </li>
-          ))}
-        </ul>
+        <div className="comments-container">
+          <ul>
+            {comments.map((comment, index) => (
+              <li
+                key={index}
+                className={index === 0 ? "commentNew" : "comment"}
+              >
+                {comment.text}
+              </li>
+            ))}
+          </ul>
+        </div>
       </main>
     </>
   );

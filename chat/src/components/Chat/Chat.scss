@@ -85,6 +85,12 @@ input:focus {
   margin-bottom: 0;
 }
 
+.comments-container {
+  padding-top: 1.5rem;
+  min-height: 29vh;
+  border: 3px solid #52d450;
+}
+
 ul {
   display: flex;
   flex-direction: column;
@@ -96,6 +102,7 @@ li {
   list-style-type: none;
   width: 100%;
   text-align: start;
+  padding: 0 1rem;
   padding-bottom: 1%;
   border-bottom: 2px solid #52d450;
 }
