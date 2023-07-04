@@ -11,8 +11,8 @@
 <h2>Foto Presentation</h2>
 
 
-<img width="700" alt="Приложение без комментариев" src="https://github.com/Annastaasia/Chat/assets/108290014/b0f81459-a281-4ccf-b24e-f01b417a50cd.png">
-<img width="700" alt="Приложение с комментариями" src="https://github.com/Annastaasia/Chat/assets/108290014/e17a481c-b2af-4429-b73c-180a24e75761.png">
+<img alt="Приложение без комментариев" src="https://github.com/Annastaasia/Chat/assets/108290014/b0f81459-a281-4ccf-b24e-f01b417a50cd.png">
+<img alt="Приложение с комментариями" src="https://github.com/Annastaasia/Chat/assets/108290014/e17a481c-b2af-4429-b73c-180a24e75761.png">
 
 ## Getting started
 
@@ -32,8 +32,8 @@
 <h2>Contacts</h2>
 
 **Anastasiya Shitenkova** 
-<p>  LinkedIn - *https://www.linkedin.com/in/anastasiya-shitenkova/* 
-<p>  Telegram - *https://t.me/Nemezida_Ok*
+<p>  LinkedIn - https://www.linkedin.com/in/anastasiya-shitenkova/ 
+<p>  Telegram - https://t.me/Nemezida_Ok
 
 ## Result:
 https://annastaasia.github.io/Chat/
